@@ -141,7 +141,7 @@ const IndexPage = () => (
       <li><Link to="/blog/2018-04-12-test/">Go to a blog page</Link></li>
     </ul>
 
-    <h2><a href="http://recharts.org/en-US" target="_blank">Recharts</a> のデモ</h2>
+    <h2>ついでに <a href="http://recharts.org/" target="_blank">Recharts</a> のデモ</h2>
 
     <p>グイグイ動くね</p>
 
