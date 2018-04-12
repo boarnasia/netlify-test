@@ -12,6 +12,12 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+        { name: 'og:title', content: 'Gatsby と netlify のテスト' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:url', content: 'https://admiring-blackwell-9c09ac.netlify.com/' },
+        { name: 'og:image', content: 'https://admiring-blackwell-9c09ac.netlify.com/images/site-image.png' },
+        { name: 'og:site_name', content: 'テストサイト' },
+        { name: 'og:description', content: 'Gatsby と netlify のテストのテストをしています。' },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} />
